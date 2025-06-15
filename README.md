@@ -38,11 +38,11 @@ HospitalPatientManagementSystem/
 2. Open a MySQL client or GUI like MySQL Workbench.
 3. Execute `1_create_tables.sql` to create the schema.
 4. Execute `2_insert_data.sql` to add sample data.
-5. Run queries from `3_queries_easy.sql` or `4_queries_medium.sql` as needed.
+5. Run queries from `3_queries.sql` as needed.
 
 ## Files and Scripts
 
-### 1. `1_create_tables.sql`
+### 1. `create_tables.sql`
 
 Creates all six tables and sets up relationships using foreign keys:
 - `patients`
@@ -52,11 +52,11 @@ Creates all six tables and sets up relationships using foreign keys:
 - `treatments`
 - `bills`
 
-### 2. `2_insert_data.sql`
+### 2. `insert_data.sql`
 
 Inserts sample records into all tables to simulate a real-world hospital scenario.
 
-### 3. `3_queries_easy.sql`
+### 3. `queries_easy.sql`
 
 Contains basic select and join queries, such as:
 - List of patients over age 50
@@ -64,10 +64,6 @@ Contains basic select and join queries, such as:
 - Appointment count per doctor
 - Bills for a patient
 - Patients with pending bills
-
-### 4. `4_queries_medium.sql`
-
-Includes more advanced queries, such as:
 - Top 2 patients by total billed amount
 - Doctors who have never had an appointment
 
